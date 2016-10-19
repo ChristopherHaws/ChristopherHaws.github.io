@@ -1,4 +1,4 @@
-url: "http://ChristopherHaws.github.io"
+url: "http://chaws.io"
 #baseurl: ""
 title: Christopher Haws
 subtitle: Sr. Software Developer
@@ -48,7 +48,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://christopherhaws.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "http://chaws.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Output options (more information on Jekyll's site)
 timezone: America/New_York
