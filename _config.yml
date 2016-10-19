@@ -15,7 +15,7 @@ disqus:
   show_comment_count: true
    
 github:
-  repo: https://github.com/ChristopherHaws/ChristopherHaws.github.io.git
+  repo: https://github.com/ChristopherHaws/ChristopherHaws.github.io
 
 gems:
   - jekyll-feed
