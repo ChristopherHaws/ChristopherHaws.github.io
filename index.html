@@ -30,7 +30,8 @@ title: Home
 				<li class="previous">
 					<a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&larr; Newer Posts</a>
 				</li>
-				{% endif %} {% if paginator.next_page %}
+				{% endif %}
+				{% if paginator.next_page %}
 				<li class="next">
 					<a href="{{ paginator.next_page_path | replace: '//', '/' }}">Older Posts &rarr;</a>
 				</li>
