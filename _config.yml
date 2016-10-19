@@ -1,0 +1,89 @@
+url: "http://ChristopherHaws.github.io"
+#baseurl: ""
+title: Christopher Haws
+subtitle: Sr. Software Developer
+description: Christopher Haws - Sr. Software Developer
+
+google_analytics: "UA-85980419-1"
+
+gravatar:
+   hash: 809177e90d02247996280655f8fea689
+   size: 80
+
+disqus:
+  shortname: "chaws"
+  show_comment_count: true
+   
+github:
+  repo: https://github.com/ChristopherHaws/ChristopherHaws.github.io.git
+
+gems:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Christopher Haws
+  #facebook: 
+  github: ChristopherHaws
+  twitter: chaws
+  linkedin: chaws
+  stackoverflow: 483623
+  
+# Select which links to show in the footer
+footer-links-active:
+  rss: true
+  facebook: false
+  email: false
+  twitter: true
+  github: true
+  linkedin: true
+  stackoverflow: true
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "http://christopherhaws.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+
+# Output options (more information on Jekyll's site)
+timezone: America/New_York
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+paginate: 5
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+      show-avatar: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      nav-include: true  # include in header nav
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
