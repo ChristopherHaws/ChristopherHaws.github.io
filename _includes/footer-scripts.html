@@ -5,7 +5,7 @@
 
 <script>
 	$(document).load(function() {
-		$("code.language-mermaid").replaceWith( "<div class=\mermaid\">" + $("code").html() + "</div>" );
+		$("code.language-mermaid").each(function(index, value) { $(this).replaceWith( "<div class=\mermaid\">" + $(this).html() + "</div>" ); });
 		mermaid.initialize({startOnLoad:true});
 	});
 </script>
