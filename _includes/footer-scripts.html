@@ -3,7 +3,12 @@
 <script src="https://unpkg.com/mermaid@7.0.3/dist/mermaid.min.js" crossorigin="anonymous"></script>
 <script src="{{ site.url }}/js/main.js"></script>
 
-<script>mermaid.initialize({startOnLoad:true});</script>
+<script>
+	$(document).load(function() {
+		$("code.language-mermaid").replaceWith( "<div class=\mermaid\">" + $("code").html() + "</div>" );
+		mermaid.initialize({startOnLoad:true});
+	});
+</script>
 
 {% if site.google_analytics %}
 <script>
