@@ -1,9 +1,21 @@
-# project
-_site
-.sass-cache
-.vagrant
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+!.stylelintrc.json
 
-# general
-.DS_Store
-Thumbs.db
-ehthumbs.db
+# bundler cache
+_site
+vendor
+Gemfile.lock
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
