@@ -15,11 +15,11 @@
 
  "addon/module",
  "addon/variables",
- "addon/variables-hook",
- "addon/syntax",
+ "addon/variables-hook", // This hook goes after the original because it is changing variable values
  "addon/syntax-hook",
- "addon/commons",
+ "addon/syntax",
  "addon/commons-hook",
+ "addon/commons",
 
  "layout/home",
  "layout/post",
