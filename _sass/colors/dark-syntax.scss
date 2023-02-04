@@ -19,10 +19,10 @@ $name-namespace-color: #555;
 $generic-inserted-color: #90a959;
 
 @mixin dark-syntax {
-	--highlight-bg-color: $code-bg-color;
-	--highlighter-rouge-color: $code-color;
+	--highlight-bg-color: #{$code-bg-color};
+	--highlighter-rouge-color: #{$code-color};
 	--highlight-lineno-color: #6c6c6d;
-	--inline-code-bg: $code-bg-color;
+	--inline-code-bg: #{$code-bg-color};
 	--code-header-text-color: #6a6a6a;
 	--code-header-muted-color: rgb(60, 60, 60);
 	--code-header-icon-color: rgb(86, 86, 86);
