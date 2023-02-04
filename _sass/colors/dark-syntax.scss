@@ -35,6 +35,7 @@ $generic-inserted-color: #90a959;
 		.gp { color: #818c96; } // Generic.Prompt
 	}
 
+	// https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
 	// syntax highlight colors from https://raw.githubusercontent.com/jwarby/pygments-css/master/monokai.css
 	.highlight pre		{ background-color: var(--highlight-bg-color); }
 	.highlight .hll		{ background-color: var(--highlight-bg-color); }
