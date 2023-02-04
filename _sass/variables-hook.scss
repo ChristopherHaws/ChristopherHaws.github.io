@@ -1,1 +1,7 @@
 $sidebar-width-large: 300px;
+
+// Change the syntax highlighting tab size to 4 instead of the default 8
+pre {
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
