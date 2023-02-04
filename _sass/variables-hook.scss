@@ -1,12 +1,5 @@
 $sidebar-width-large: 300px;
 
-// https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_sass/colors/dark-typography.scss
-@mixin dark-scheme {
-	/* Common color */
-	--text-color: rgb(215, 215, 215);
-	--text-muted-color: rgb(175, 175, 175);
-}
-
 // Change the syntax highlighting tab size to 4 instead of the default 8
 pre {
 	-moz-tab-size: 4;
